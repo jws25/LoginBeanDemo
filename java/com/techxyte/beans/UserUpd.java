@@ -17,7 +17,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.concurrent.TimeUnit;
 
-
+// Developer2's change1
 public class UserUpd implements Serializable {
 	
 	// Variables
