@@ -23,7 +23,9 @@ import com.techxyte.beans.Users;
 @WebServlet("/RegistrationServlet")
 public class RegistrationServlet extends HttpServlet {
 private static final long serialVersionUID = 1L;
-	
+
+// Developer Change1
+
 	// Variables
 	static boolean reset = true;
 	static LocalDate dateToday = java.time.LocalDate.now();
