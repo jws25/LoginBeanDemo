@@ -28,7 +28,7 @@ import com.techxyte.beans.Users;
 @WebServlet("/DisplayUserInfo")
 public class DisplyUserInfo extends HttpServlet {
 
-       
+       // DisplayUserInfoFeatureDeveloper's change1
 	// Variables
 	private static final long serialVersionUID = 1L;
 	static boolean accountFound = false;
