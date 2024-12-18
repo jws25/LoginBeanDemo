@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Info</title>
+</head>
+<body>
+
+<h1 style = "color: black">Info Updation Form</h1>
+
+	<form action = "UpdateInfo" method = "post">
+	
+		<label for = "username">Username (cannot be changed):</label>
+		<input type = "text" id = "username" name = "username" required><br><br>
+
+		<label for = "password">Old Password:</label>
+		<input type = "password" id = "password" name = "password" required><br><br>	
+	
+		<label for = "newpassword">New Password:</label>
+		<input type = "password" id = "newpassword" name = "newpassword" required><br><br>	
+
+		<label for = "name">Name:</label>
+		<input type = "text" id = "name" name = "name" required><br><br>
+
+		<label for = "dob">Date of Birth:</label>
+		<input type = "date" id = "dob" name = "dob"><br><br>	
+		
+		<label for = "gender">Gender:</label><br><br>
+		<input type = "radio" id = "male" name = "gender" value = "male" required>
+		<label for = "male">Male</label><br><br>	
+		<input type = "radio" id = "female" name = "gender" value = "female" required>
+		<label for = "female">Female</label><br><br>
+		
+		<label for = "location">Location:</label>
+		<select name = "location" id = "location">
+			<option value = "Bengaluru">Bengaluru</option>
+			<option value = "Chennai">Chennai</option>
+			<option value = "Hyderabad">Hyderabad</option>
+		</select><br><br>
+		
+		<label for = "receiveupdates">Receive Updates:</label><br><br>
+		<input type = "checkbox" id = "yes" name = "receiveupdates" value = "yes">
+		<label for = "yes">Yes</label><br><br>
+
+		<input type = "submit" value = "Update"> 
+	</form>
+	<a href = Home.html>Home</a>
+	
+	
+</body>
+</html>
